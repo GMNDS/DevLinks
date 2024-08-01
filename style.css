@@ -30,7 +30,7 @@
   --surface-color: rgba(0, 0, 0, 0.05);
   --profile-color: rgba(0, 0, 0, 0.1);
   --surface-color-hover: rgba(0, 0, 0, 0.02);
-  --highlight-color: rgba(0, 0, 0, 0.1);
+  --highlight-color: rgba(1, 0, 0, 0.1);
   --switch-bg-url: url(./assets/Sun.svg);
 }
 
