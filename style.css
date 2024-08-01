@@ -6,37 +6,27 @@
 
 :root {
   --text-color: #ffffff;
-  --bg-url: repeating-linear-gradient(
-    45deg,
-    rgba(35, 35, 70, 0.9),
-    rgba(35, 35, 70, 0.9) 10%,
-    transparent 0px,
-    transparent 200px
-  );
-  --bg-color: rgb(20, 20, 40);
-  --stroke-color: rgba(255, 255, 255, 0.5);
-  --profile-color: rgba(255, 255, 255, 0.1);
-  --surface-color: rgba(255, 255, 255, 0.1);
-  --surface-color-hover: rgba(255, 255, 255, 0.05);
-  --highlight-color: rgba(255, 255, 255, 0.2);
+  --bg-color: rgb(20 20 40);
+  --stroke-color: rgb(255 255 255 / 0.5);
+  --profile-color: rgb(255 255 255 / 0.1);
+  --surface-color: rgb(255 255 255 / 0.1);
+  --surface-color-hover: rgb(255 255 255 / 0.05);
+  --highlight-color: rgb(255 255 255 / 0.2);
   --switch-bg-url: url(./assets/MoonStars.svg);
 }
 
 .light {
   --text-color: #000000;
-  --bg-url: url(./assets/bg-mobile-light.jpg);
   --bg-color: rgb(240, 180, 180);
-  --stroke-color: rgba(0, 0, 0, 0.5);
-  --surface-color: rgba(0, 0, 0, 0.05);
-  --profile-color: rgba(0, 0, 0, 0.1);
-  --surface-color-hover: rgba(0, 0, 0, 0.02);
-  --highlight-color: rgba(1, 0, 0, 0.1);
+  --stroke-color: rgb(0 0 0 / 0.5);
+  --surface-color: rgb(0 0 0 / 0.05);
+  --profile-color: rgb(0 0 0 / 0.1);
+  --surface-color-hover: rgb(0 0 0 / 0.02);
+  --highlight-color: rgb(1 0 0 / 0.1);
   --switch-bg-url: url(./assets/Sun.svg);
 }
 
 body {
-  /* background-color: var(--bg-color); */
-  /* background-image: var(--bg-url); */
   background: var(--bg-color) 50% 0 / cover;
   height: 100vh;
 }
